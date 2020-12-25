@@ -46,7 +46,8 @@ const App = () => {
              <form onSubmit={onSubmits}>
                 <div>
                     <h1> 
-                        Hello {fullName.fname} {fullName.lname} { fullName.email}
+                        <p> Hello 😃 {fullName.fname} {fullName.lname} </p>  
+                        <p>{ fullName.email}</p>
                     </h1>
                     <input
                         type = "text"
