@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+}
+
+div {
+    width: 100%;
+    height: 100vh;
+    background: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color : white;
+    background:  transparent;
+    text-shadow: 0 2px 2px black;
+}
+input{
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid whitesmoke;;
+    outline: none;
+    margin: 20px 0;
+    text-align: center;
+}
+button {
+    padding: 12px 20px;
+    background: rgb(150, 150, 216);
+    color: rgba(255, 255, 255, 0.404);
+    border: 2px solid whitesmoke;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
